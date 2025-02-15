@@ -4,6 +4,8 @@
 
 **PDF Grid Line Remover** is a lightweight Python tool that removes grid lines from PDFs, particularly those created using digital note-taking apps. It detects and erases background lines of predefined colors while keeping handwritten notes or text intact.
 
+![image](https://github.com/user-attachments/assets/17b098b7-ea93-475b-9273-01ff136f61a3)
+
 ## 🚀 Features
 
 - 🌟 Converts PDFs to images for processing
@@ -17,7 +19,7 @@
 Make sure you have Python installed, then install the required dependencies:
 
 ```bash
-pip install pdf2image opencv-python numpy img2pdf pillow tk
+pip install -r requirement.txt
 ```
 
 ## 🛠️ Usage
@@ -25,7 +27,7 @@ pip install pdf2image opencv-python numpy img2pdf pillow tk
 Run the script and select a PDF file when prompted:
 
 ```bash
-python remove_grid_lines.py
+python main.py
 ```
 
 The processed PDF will be saved as:
@@ -59,7 +61,7 @@ The tool removes lines in these approximate colors (with tolerance):
 - `#ececec`
 - `#d6d6d6`
 
-If any additional colors are detected in your file, you can tweak the script to adjust the filtering.
+You can tweak the script to adjust the filtering if any additional colors are detected in your file.
 
 ## 🤝 Contributions
 
