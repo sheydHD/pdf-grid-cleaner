@@ -19,7 +19,7 @@
 Make sure you have Python installed, then install the required dependencies:
 
 ```bash
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 ## 🛠️ Usage
